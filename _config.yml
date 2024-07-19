@@ -1,5 +1,67 @@
+# Site settings
 title: Vishnu Das Bharathraj
 logo: /assets/img/vishdaslin.jpeg
 description: Generative AI Engineer
-show_downloads: true
+#show_downloads: true
 theme: jekyll-theme-minimal
+logo: /assets/img/vishdas.png  # Add your profile picture or logo here
+
+# Social media links
+social_links:
+  linkedin: https://www.linkedin.com/in/vishdas/
+  github: https://github.com/vishdas-ai
+  email: vishnudas1297@gmail.com
+
+# Google Analytics
+
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+nav:
+  - {name: 'Home', link: '/'}
+  - {name: 'Projects', link: '/projects'}
+  - {name: 'Blog', link: '/blog'}
+  - {name: 'Contact', link: '/contact'}
+
+# Custom CSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
