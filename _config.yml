@@ -1,10 +1,12 @@
 # Site settings
 title: Vishnu Das Bharathraj
-logo: /assets/img/vishdaslin.jpeg
-description: Generative AI Engineer
-#show_downloads: true
+description: Gen-AI Engineer | Cloud Data Engineer | Data Scientist
+url: "https://vishnudas.com"
+baseurl: ""
+
+# Theme settings
 theme: jekyll-theme-minimal
-logo: /assets/img/vishdas.png  # Add your profile picture or logo here
+logo: /assets/img/vishdas.png
 
 # Social media links
 social_links:
@@ -12,8 +14,11 @@ social_links:
   github: https://github.com/vishdas-ai
   email: vishnudas1297@gmail.com
 
-# Google Analytics
+# Resume download link
+resume_link: /assets/Vishnu_Das_Resume.pdf
 
+# Google Analytics
+google_analytics: UA-XXXXXXXX-X  # Replace with your Google Analytics tracking ID
 
 # Build settings
 markdown: kramdown
@@ -27,6 +32,38 @@ nav:
   - {name: 'Projects', link: '/projects'}
   - {name: 'Blog', link: '/blog'}
   - {name: 'Contact', link: '/contact'}
+
+# Skills
+skills:
+  - Python
+  - SQL
+  - Spark
+  - R
+  - Machine Learning
+  - Deep Learning
+  - MSSQL
+  - Hadoop
+  - Hive
+  - PyTorch
+  - TensorFlow
+  - Docker
+  - HTML
+  - Git
+  - GCP
+  - Cloud Computing
+  - Terraform
+  - Airflow
+  - CI/CD
+  - Informatica Cloud Integration
+  - Unit Testing
+  - Generative AI
+  - NLP
+  - FastAPI
+  - Large Language Models
+  - Langchain
+  - llama-Index
+  - Haystack
+  - Computer Vision
 
 # Custom CSS
 sass:
