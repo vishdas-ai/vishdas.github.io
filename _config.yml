@@ -4,4 +4,14 @@ logo: /assets/img/vishdaslin.jpeg
 description: Generative AI Engineer
 show_downloads: true
 logo: /assets/img/vishdas.png  # Add your profile picture or logo here
+
+## Skills
+
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=Python&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-4479A1?style=flat-square&logo=MySQL&logoColor=white)
+![GCP](https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat-square&logo=Google-Cloud&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/-Machine%20Learning-FF6F00?style=flat-square&logo=TensorFlow&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=Docker&logoColor=white)
+![Generative AI](https://img.shields.io/badge/-Generative%20AI-FF4785?style=flat-square&logo=OpenAI&logoColor=white)
+
 theme: jekyll-theme-minimal
